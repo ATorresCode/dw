@@ -1,5 +1,5 @@
-site_name: Plataformas Web
-site_url: https://atorrescode.github.io/pw/
+site_name: Desarrollo Web
+site_url: https://atorrescode.github.io/dw/
 # docs_dir: md
 # site_dir: docs
 theme:
@@ -28,7 +28,9 @@ theme:
 
 nav:
     - Home: index.md
-    - UF01. Arquitecturas web: u01/index.md
+    - UF01. Introducción al desarrollo web:
+      - T1.1. Arquitecturas web: u01/u1.1.md
+      - A1.1. Actividades: u01/a1.1.md
     - UF02. JavaScript: u02/index.md
 extra_css:
   - css/style.css
