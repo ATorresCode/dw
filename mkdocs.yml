@@ -29,7 +29,7 @@ theme:
 nav:
     - Home: index.md
     - UF01. Introducción al desarrollo web:
-      - T1.1. Arquitecturas web: u01/u1.1.md
+      - R1.1. Arquitecturas web: u01/r1.1.md
       - A1.1. Actividades: u01/a1.1.md
     - UF02. JavaScript: u02/index.md
 extra_css:
