@@ -23,8 +23,8 @@ theme:
       toggle:
           icon: material/brightness-4
           name: Canvia a mode clar
-   logo: img/favicon.ico
-   favicon: img/favicon.ico
+   logo: img/pato_pixelart_icono.ico
+   favicon: img/pato_pixelart_icono.ico
 
 nav:
     - Home: index.md
