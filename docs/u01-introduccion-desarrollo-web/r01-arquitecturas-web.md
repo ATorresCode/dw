@@ -1,4 +1,4 @@
-# UD01: Programación web en el servidor
+# R1: Arquitecturas web
 
 ---
 
@@ -156,7 +156,7 @@ Inconvenientes:
   export default PulsaBoton;
   ```
 
-![Frontend](./frontend.png)
+![Frontend](img/frontend.png)
 
 - **Backend**: parte de la aplicación que se ejecuta en el servidor y que procesa datos, lógica y almacenamiento. Puede estar implementado en PHP, Python, Node.js, Java, etc., y suele usar frameworks como Laravel, Django, Express o Spring.
 
@@ -171,7 +171,7 @@ Inconvenientes:
 
 - **Backoffice**: interfaz de administración de la aplicación, generalmente accesible solo para usuarios autorizados.
 
-![Backoffice](./backoffice.png)
+![Backoffice](img/backoffice.png)
 
 - **HTTP**: protocolo de comunicación entre cliente y servidor. Utiliza métodos para indicar la acción deseada y códigos de estado para informar del resultado.
   Los métodos HTTP más utilizados son:

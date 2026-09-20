@@ -23,17 +23,17 @@ theme:
       toggle:
           icon: material/brightness-4
           name: Canvia a mode clar
-   logo: img/pato_pixelart_icono.ico
-   favicon: img/pato_pixelart_icono.ico
+   logo: assets/img/pato_pixelart_icono.ico
+   favicon: assets/img/pato_pixelart_icono.ico
 
 nav:
     - Home: index.md
-    - UF01. Introducción al desarrollo web:
-      - R1.1. Arquitecturas web: u01/r1.1.md
-      - A1.1. Actividades: u01/a1.1.md
-    - UF02. JavaScript: u02/index.md
+    - Unidad 1. Introducción al desarrollo web:
+      - 1. Arquitecturas web: u01-introduccion-desarrollo-web/r01-arquitecturas-web.md
+      - Actividades: u01-introduccion-desarrollo-web/a01.md
+    - Unidad 2. JavaScript: u02-javascript/index.md
 extra_css:
-  - css/style.css
+  - assets/css/style.css
 extra_templates:
 plugins:
   - search
