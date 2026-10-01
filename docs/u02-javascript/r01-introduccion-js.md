@@ -1,6 +1,4 @@
-# UF1.1: Introducción a JavaScript
-
----
+# UD02: Introducción a JavaScript
 
 ## 1. JavaScript en la web
 

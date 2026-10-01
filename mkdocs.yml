@@ -31,7 +31,9 @@ nav:
     - Unidad 1. Introducción al desarrollo web:
       - 1. Arquitecturas web: u01-introduccion-desarrollo-web/r01-arquitecturas-web.md
       - Actividades: u01-introduccion-desarrollo-web/a01.md
-    - Unidad 2. JavaScript: u02-javascript/index.md
+    - Unidad 2. JavaScript:
+      - 1. Introducción a JavaScript: u02-javascript/r01-introduccion-js.md
+      - Actividades: u02-javascript/a01.md
 extra_css:
   - assets/css/style.css
 extra_templates:
@@ -42,12 +44,33 @@ plugins:
   #     combined: true
   # - page-to-pdf
 markdown_extensions:
+  # Avisos: !!! note, !!! warning, !!! tip...
   - admonition
+
+  # Bloques desplegables: ??? question, ???+ example...
+  - pymdownx.details
+
+  # Resaltado de código
   - pymdownx.highlight:
       linenums: true
+      anchor_linenums: true
+
+  # Bloques de código avanzados y Mermaid
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  # - pymdownx.embed
+
+  # Listas de tareas: - [ ] y - [x]
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  # Permite añadir atributos a elementos Markdown
+  - attr_list
+
+  # Permite combinar Markdown dentro de HTML
+  - md_in_html
+
+  # Notas al pie
+  - footnotes
