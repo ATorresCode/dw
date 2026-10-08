@@ -183,6 +183,20 @@ console.log(`El resultado es ${1 + 2}`);
 
 `"name"` es texto literal; `${name}` utiliza el contenido de la variable.
 
+Las cadenas son inmutables: estos **métodos** devuelven un resultado nuevo y no modifican la cadena original.
+
+| Método o propiedad | Uso | Ejemplo |
+| --- | --- | --- |
+| `length` | Obtener la longitud | `"Hola".length // 4` |
+| `toUpperCase()` / `toLowerCase()` | Convertir a mayúsculas o minúsculas | `"Hola".toLowerCase() // "hola"` |
+| `trim()` | Quitar espacios al inicio y al final | `" hola ".trim() // "hola"` |
+| `includes(texto)` | Comprobar si contiene texto | `"JavaScript".includes("Script") // true` |
+| `startsWith(texto)` / `endsWith(texto)` | Comprobar el inicio o el final | `"foto.png".endsWith(".png") // true` |
+| `indexOf(texto)` | Buscar la posición; devuelve `-1` si no aparece | `"banana".indexOf("na") // 2` |
+| `slice(inicio, fin)` | Extraer una parte, sin incluir `fin` | `"JavaScript".slice(0, 4) // "Java"` |
+| `replace(buscar, reemplazo)` / `replaceAll(buscar, reemplazo)` | Reemplazar una o todas las coincidencias | `"a-b".replaceAll("-", " ") // "a b"` |
+| `split(separador)` | Dividir en un array | `"a,b".split(",") // ["a", "b"]` |
+
 ### Booleanos, `null` y `undefined`
 
 ```js
