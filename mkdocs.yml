@@ -36,7 +36,8 @@ nav:
       - 2. Bucles y funciones: u02-javascript/r02-bucles-funciones.md
       - 3. Objetos: u02-javascript/r03-objetos.md
       - 4. Arrays: u02-javascript/r04-arrays.md
-      - Actividades: u02-javascript/a01.md
+      - Actividades introducción: u02-javascript/a01.md
+      - Actividades bucles, funciones, objetos y arrays: u02-javascript/a02.md
 extra_css:
   - assets/css/style.css
 extra_templates:
