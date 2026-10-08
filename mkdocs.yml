@@ -33,6 +33,9 @@ nav:
       - Actividades: u01-introduccion-desarrollo-web/a01.md
     - Unidad 2. JavaScript:
       - 1. Introducción a JavaScript: u02-javascript/r01-introduccion-js.md
+      - 2. Bucles y funciones: u02-javascript/r02-bucles-funciones.md
+      - 3. Objetos: u02-javascript/r03-objetos.md
+      - 4. Arrays: u02-javascript/r04-arrays.md
       - Actividades: u02-javascript/a01.md
 extra_css:
   - assets/css/style.css
