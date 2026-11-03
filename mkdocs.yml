@@ -36,9 +36,16 @@ nav:
       - 2. Bucles y funciones: u02-javascript/r02-bucles-funciones.md
       - 3. Objetos: u02-javascript/r03-objetos.md
       - 4. Arrays: u02-javascript/r04-arrays.md
+      - 5. Manejo de errores: u02-javascript/r05-errores.md
+      - 6. Promesas y async/await: u02-javascript/r06-promesas-async-await.md
       - Actividades introducción: u02-javascript/a01.md
       - Actividades bucles, funciones, objetos y arrays: u02-javascript/a02.md
       - Actividades resueltas arrays: u02-javascript/a03.md
+    - Unidad 3. Entorno del navegador y DOM:
+      - 1. Entorno del navegador y DOM: u03-dom/r01-entorno-dom.md
+      - 2. Eventos de la interfaz: u03-dom/r02-eventos-ui.md
+      - 3. Solicitudes de red con fetch y FormData: u03-dom/r03-fetch-formdata.md
+      - 4. Almacenamiento en el navegador: u03-dom/r04-almacenamiento-navegador.md
 extra_css:
   - assets/css/style.css
 extra_templates:
